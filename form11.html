@@ -1,0 +1,60 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="C:\\Users\\slk\\Desktop\\css.css">
+<style>
+.geek1{
+font-size:70px;
+font-family:monotype corsiva;
+color:cyan;
+}
+
+
+</style>
+</head>
+<body> 
+<div id="bg"></div>
+    <div class = "main"> 
+    <marquee class="marq"   loop="" > 
+        <div class="geek1">Work.Train.Repeat</div> 
+       
+    </marquee> 
+    </div> 
+
+
+
+			
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+<input type=hidden name="oid" value="00D2w000000DVLe">
+<input type=hidden name="retURL" value="https://www.slkgroup.com/">
+	<div class="row" >
+<div class="col">
+
+</div>	
+<div class="col">
+<div><label for="firstName">FirstName</label></div>
+			<input  id="first_name" maxlength="40" name="first_name" size="20" type="text"  background-color: #4CAF50
+  color: black;/>
+			 		<div><label for="lastName">Lastname</label></div>
+			<input  id="last_name" maxlength="80" name="last_name" size="20" type="text" />
+			  	<div class="dgend">Gender</div>
+			  		<span class="gend">
+							M<input type="radio" name="gender" value="M" id="male" checked="checked">
+							F<input type="radio" name="gender" value="F" id="female" >			
+			  		</span>
+			  				 
+					<div><label for="email">Email Address</label></div>				
+			<input type="email" name="email"  id="email"  pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"title="Enter vaild email-Id"
+     required>
+					<div><label for="city">City</label></div>
+                                                       <input  id="city" maxlength="40" name="city" size="20" type="text" />
+                                                                                           <div><label for="company">Company</label></div>
+                                                       <input  id="company"  name="company" size="20" type="text" />
+                                                                                              <div><label for="zip">Zip</label></div>
+                                                      <input type="text" pattern="[0-9]{6}" title="Six digit zip code" />
+                                                                                             <div><label for="phone">Phone</label></div>
+                                                        <input type="text" id="phone" name="phone" maxlength="10"  pattern="[0-9]{10}" title="Enter valid 10 digit mobile number"
+     required>
+			<input class="button" type="submit" value="Submit" name="submit">
+</div>
+</row>		  	
+			
+		  </form>	
